@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: server
-        image: ghcr.io/jeremy-rcsb/hello-flux/github.com/jeremy-rcsb/hello-flux/apps/team-1/server # {"": "team-1:server"}
+        image: ghcr.io/jeremy-rcsb/hello-flux/github.com/jeremy-rcsb/hello-flux/apps/team-1/server # {"\$imagepolicy": "team-1:server"}
         ports:
         - containerPort: 8080
